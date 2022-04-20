@@ -1,0 +1,44 @@
+.ul_tipos_envio{
+	font-size:12px;
+	display:inline; 
+	text-align:left;
+}
+
+.li_tipos_envio{
+	display:flex; 
+	align-items:center; 
+	gap:7px; 
+	margin-bottom:6px;
+	border:1px dotted #eaeaea;
+	background-color:#fafafa;
+	padding:5px;
+}
+
+.detalle_envio p{
+	margin:0;
+}
+
+.li_tipos_envio:hover{ 
+	background:#eaeaea;
+	transition:all .4s ease-in-out;
+}
+
+.fee{
+	display:none;
+}
+
+#mostrar_mas {
+    cursor: pointer;
+    color: #fff;
+    background: #57bf6d;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+#mostrar_mas:hover {
+    background: #4AA15D;
+    transition: all .3s ease-in-out;
+}
+
